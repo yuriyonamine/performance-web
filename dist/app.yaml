@@ -12,4 +12,3 @@ handlers:
 
   - url: /assets
     static_dir: assets
-    expiration: 1d

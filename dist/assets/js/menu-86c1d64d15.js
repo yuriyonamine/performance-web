@@ -1,0 +1,1 @@
+!function(){var t=$(".header-menu");$(".header-menu-titulo").on("click",function(){t.is("[data-ativo]")?t.removeAttr("data-ativo"):t.attr("data-ativo","")})}();

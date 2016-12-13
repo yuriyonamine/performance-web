@@ -1,4 +1,4 @@
-$(window).on('load', function() {
+(function() {
 	var menu = $('.header-menu');
 
 	$('.header-menu-titulo').on('click', function() {
@@ -9,4 +9,4 @@ $(window).on('load', function() {
 		}
 	});
 
-});
+})();
