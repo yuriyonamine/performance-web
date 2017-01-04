@@ -1,4 +1,5 @@
-(function() {  
+setTimeout(function(){
+
 	var newsletterForm = document.querySelector('.footer-newsletter-form');
 	newsletterForm.onsubmit = valida;
 
@@ -20,4 +21,5 @@
 			return re.test(email);
 	}
 
-})();
+	console.log('Carregou footer');
+}, 1000);
